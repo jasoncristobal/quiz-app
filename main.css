@@ -1,0 +1,101 @@
+* {
+	font-family: roboto, sans-serif;
+	font-size: 22px;
+}
+
+header, main {
+	padding: 30px 30px 0px 30px;
+	text-align: center;
+  color: rgb(44, 44, 44);
+  background-color: white;
+}
+
+.bottom {
+	padding-bottom: 50px;
+}
+
+button {
+	background-color: lightgray;
+}
+
+header {
+	font-size: 44px;
+}
+
+body {
+	max-width: 900px;
+	padding: 20px 10px 20px 10px; 
+	margin: auto;
+}
+
+
+img {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding-right: 40px; 
+}
+
+label {
+  line-height: 35px;
+}
+
+.select-an-answer {
+  color: white;
+}
+
+.right-ans {
+  color: green;
+}
+
+.wrong-ans, .no-selection {
+  color: red;
+}
+
+header, .question, .correct-answer, .progress, .score, .right-ans, .no-selection {
+	font-weight: bold;
+}
+
+a:link, a:visited, a:active{
+  color: #154EB7;
+}
+
+.final-score {
+	font-size: 40px;
+  line-height: 1px;
+}
+
+/* Non-mobile, grids */
+
+@media only screen and (min-width: 650px) {
+  html {
+    background-color: lightblue;
+  }
+
+  .q-and-a, .answerDetails {
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .answerDetails {
+    padding-bottom: 20px; 
+  }
+
+  img {
+	width: 85%;
+	margin: auto;
+	text-align: center;
+  }
+
+}
+
+@media only screen and (min-width: 850px) {
+  img {
+	width: 70%;
+  }
+}
