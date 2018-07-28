@@ -1,7 +1,7 @@
 'use strict';
 
 const questions = [
-  { // Array Index 0 - Question #1
+  { // Array Index 0 - Question #1.
     question: 'Every President has served two terms or less, except one. He was elected 4 times.',
     options: [
       'Abraham Lincoln', 
